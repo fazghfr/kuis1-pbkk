@@ -158,6 +158,10 @@
             <AppBarButton Icon="Zoom"
                           Label="Zoom"
                           Flyout="{StaticResource zoomFlyout}" />
+
+            <AppBarButton Icon="Delete"
+              Label="Delete selected image"
+              Click="{x:Bind DeleteSelectedImage}" />
         </CommandBar>
 
         <GridView x:Name="ImageGridView"
